@@ -372,14 +372,14 @@ return [
                 ],
             ],
         ],
-        [
+        /*[
             'text' => 'Inventario',
             'url'  => '/inventario',
             'icon'        => 'fas fa-box',
             #'label'       => 4,
             'label_color' => 'success',
-        ],
-        [
+        ],*/
+        /*[
             'text' => 'Servicio',
             'icon' => '	fas fa-balance-scale	',
             'submenu' => [
