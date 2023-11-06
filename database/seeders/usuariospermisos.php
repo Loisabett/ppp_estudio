@@ -24,11 +24,7 @@ class usuariospermisos extends Seeder
             'crear-usuario',
             'editar-usuario',
             'borrar-usuario',
-            //operaciones sobre la tabla levels
-            'ver-level',
-            'crear-level',
-            'editar-level',
-            'borrar-level',
+
             //operaciones sobre la tabla marca
             'ver-marca',
             'crear-marca',

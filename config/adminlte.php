@@ -328,12 +328,7 @@ return [
             'icon' => '	fas fa-clipboard-list',
             'submenu' => [
                 [
-                    'text' => 'Piso',
-                    'url'  => 'level',
-                    'icon' => 'fas fa-building',
-                ],
-                [
-                    'text' => 'Area',
+                    'text' => 'Área',
                     'url'  => 'area',
                     'icon' => '	fas fa-map',
                 ],
@@ -344,13 +339,13 @@ return [
                 ],
 
                 [
-                    'text' => 'Modelo',
+                    'text' => 'Tipo de Producto',
                     'url'  => 'modelo',
                     'icon' => '	fas fa-qrcode',
 
                 ],
                 [
-                    'text' => 'Catalogo de Equipos',
+                    'text' => 'Catálogo de Productos',
                     'url'  => 'catalogo',
                     'icon' => '	fas fa-dolly-flatbed',
 
@@ -361,8 +356,8 @@ return [
                     'icon' => '	fas fa-university',
                 ],
                 [
-                    'text' => 'Categoria Trabajador',
-                    'url'  => 'categorias',
+                    'text' => 'Categoría Trabajador',
+                    'url'  => 'categoria',
                     'icon' => '	fas fa-sitemap',
                 ],
                 [
@@ -372,13 +367,13 @@ return [
                 ],
             ],
         ],
-        /*[
+        [
             'text' => 'Inventario',
-            'url'  => '/inventario',
+            'url'  => 'Inventario',
             'icon'        => 'fas fa-box',
             #'label'       => 4,
             'label_color' => 'success',
-        ],*/
+        ],
         /*[
             'text' => 'Servicio',
             'icon' => '	fas fa-balance-scale	',

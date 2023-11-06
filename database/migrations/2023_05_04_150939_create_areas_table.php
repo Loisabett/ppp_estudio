@@ -14,8 +14,7 @@ return new class extends Migration
         Schema::create('areas', function (Blueprint $table) {
             $table->id();
             $table->string('descripcion', 30);
-            $table->unsignedBigInteger('level_id');
-            $table->foreign('level_id')->references('id')->on('levels');
+
             $table->timestamps();
         });
     }

@@ -29,25 +29,6 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <!-- tarjeta para conteo de pisos-->
-                        <div class="col-md-4 col-xl-3">
-                            <div class="small-box bg-gradient-info">
-                                <div class="inner">
-                                    @php
-                                        use App\Models\level;
-                                        $cant_levels = level::count();
-                                    @endphp
-                                    <h3><span>{{ $cant_levels }}</span></h3>
-                                    <p>Niveles</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="fas fa-building"></i>
-                                </div>
-                                <a href="level" class="small-box-footer">
-                                    Acceder <i class="fas fa-arrow-circle-right"></i>
-                                </a>
-                            </div>
-                        </div>
 
                         <!-- tarjeta para conteo de marcas-->
                         <div class="col-md-4 col-xl-3">

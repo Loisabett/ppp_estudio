@@ -41,7 +41,6 @@ Route::post('camestadousu/{id}',[App\Http\Controllers\UsuarioController::class, 
 
 //rutas para modulo de mantenimiento
 Route::group(['middleware' => ['auth']], function () {
-    Route::resource('level', App\Http\Controllers\levelsController::class);
     Route::resource('marca', App\Http\Controllers\marcasController::class);
     Route::resource('modelo', App\Http\Controllers\modelsController::class);
     Route::resource('estado', App\Http\Controllers\estadosController::class);
@@ -53,12 +52,5 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('Inventario', App\Http\Controllers\InventarioController::class);
 
 });
-
-//rutas para modulo de cuentas
-Route::group(['middleware' => ['auth']], function () {
-    Route::resource('telefonos', App\Http\Controllers\TelefonoController::class);
-    Route::resource('emails', App\Http\Controllers\EmailController::class);
-});
-
 
 
