@@ -2,5 +2,5 @@
 @EstudioJuridico
 </div>
 <!-- Default to the left -->
-<strong>Copyright &copy; 2023 <a href="https://josetch01.github.io/index.html" target="_blank">@EstudioJuridico</a>.</strong>
+<strong>Copyright &copy; 2023 <a href="https://jimenez9925.github.io/WebSFN/" target="_blank">@EstudioJuridico</a>.</strong>
 Derechos reservados.
